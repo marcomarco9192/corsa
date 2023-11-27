@@ -334,6 +334,8 @@ input {
 
 .about .img {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .about .image1 {
@@ -633,7 +635,7 @@ footer li:hover {
     font-size: 18px; /* Increase font size for larger text */
     cursor: pointer;
     transition: background-color 0.3s;
-      text-shadow: 1px 1px 1px  #1E1E;
+    text-shadow: 1px 1px 1px  #1E1E;
   }
 
   .restaurant .container,
@@ -653,6 +655,7 @@ footer li:hover {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 
+
   .book {
     margin-top: 10%;
     height: auto;
@@ -668,6 +671,11 @@ footer li:hover {
 
   .left, .right {
     width: 100%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
   }
 
   .wrapper .text {
@@ -825,3 +833,4 @@ footer .payment {
 }
 
 }
+
