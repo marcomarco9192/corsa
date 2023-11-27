@@ -703,7 +703,6 @@ footer li:hover {
     margin-bottom: 50px;
   }
   .version-info {
-    position: fixed;
     bottom: 0;
     width: 100%;
   }
@@ -817,7 +816,6 @@ footer .payment {
   justify-content: center;
 }
 .version-info {
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
